@@ -17,7 +17,7 @@ background: #010606;
 }
 `
 
-export const ServiceWrapper = styled.div`
+export const ServicesWrapper = styled.div`
 max-width: 1000px;
 margin: 0 auto;
 display: grid;
@@ -36,7 +36,7 @@ padding: 0 50px;
 }
 `
 
-export const ServiceCard = styled.div`
+export const ServicesCard = styled.div`
 background: #fff;
 display: flex;
 flex-direction: column;
@@ -55,7 +55,7 @@ transition: all 0.2s ease-in-out;
 }
 `
 
-export const ServiceIcon = styled.img`
+export const ServicesIcon = styled.img`
 height: 160px;
 width: 160px;
 margin-bottom: 10px;

@@ -1,0 +1,72 @@
+.form__container{
+    color: whitesmoke;
+    background: var(--color-footer);
+}
+.form__head {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.header__container h1{
+    padding: 45px 0px 30px 0px;
+    font-family: var(--color-footer);
+}
+
+.form__row{
+    background:whitesmoke;
+    padding: 50px;
+}
+
+form__container-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.form__container button {
+  background-color: rgba(27, 120, 222, 1);
+  color: whitesmoke;
+  border: 2px solid black;
+  font-family: var(--font-family);
+  background: var(--color-footer);
+  padding: 15px 120px;
+  border-color: whitesmoke;
+}
+
+@media screen and (max-width: 850px) {
+  .gpt3__whatgpt3-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
+
+  .gpt3__whatgpt3-heading p {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  /* Customizing feature component as per needs */
+  .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+    flex-direction: column;
+  }
+
+  /* Customizing feature component as per needs */
+  .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+    margin-top: 0.5rem;
+  }
+
+  .gpt3__whatgpt3-heading h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* Customizing feature component as per needs */
+  .gpt3__whatgpt3-container .gpt3__features-container__feature {
+    margin: 1rem 0;
+    min-width: 100%;
+  }
+}

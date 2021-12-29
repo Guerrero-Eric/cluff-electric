@@ -42,7 +42,7 @@ grid-area: col1;
 
 export const Column2 = styled.div`
 margin-bottom: 15px;
-padding: 0 15px;
+padding: 0 15px 15px 20px;
 grid-area: col2;
 `
 
@@ -62,22 +62,22 @@ text-transform: uppercase;
 margin-bottom: 16px;
 `
 
-export const Heading = styled.h1`
-margin-bottom: 24px;
-font-size: 48px;
-line-weight: 600;
-line-height: 1.1;
+export const Heading = styled.p`
+max-width: 440px;
+margin-bottom: 35px;
+font-size: 1rem;
+line-height: 24px;
 color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
 @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 0.8rem;
 }
 `
 
 export const Subtitle = styled.p`
 max-width: 440px;
 margin-bottom: 35px;
-font-size: 18px;
+font-size: 1rem;
 line-height: 24px;
 color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `
@@ -96,4 +96,7 @@ export const Img = styled.img`
 width: 100%;
 margin: 0 0 10px 0;
 padding-right: 0;
+@media screen and (max-width: 768px) {
+    padding-bottom: 1000px;
+}
 `

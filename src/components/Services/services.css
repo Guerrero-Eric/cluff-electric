@@ -1,0 +1,83 @@
+.cluff__services {
+    display: flex;
+    flex-direction: column;    
+}
+
+.cluff__services-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    padding: 10rem 1.5rem;
+    height: 100%;
+}
+
+.cluff__services-title p {
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 0em 2em;
+  }
+  
+  .cluff__services-title h2 {
+    font-family: var(--font-family);
+    font-size: 25.11px;
+    font-weight: 800;
+    line-height: 30.3px;
+    text-align: center;
+  
+    cursor: pointer;
+  }
+
+.cluff__services-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.cluff__services-container_groupA {
+    flex: 0.75;
+    height: auto;
+}
+
+@media screen and (max-width: 990px ) and (min-width:800) {
+    .cluff__services-title p {
+      
+        font-size: 35px;
+        line-height: 28px;
+
+      }
+      
+      .cluff__services-title h2 {
+        font-size: 25.11px;
+      }
+}
+
+
+@media screen and (max-width: 765px) {
+    .cluff__services-title p {
+      
+        font-size: 30px;
+        line-height: 28px;
+
+      }
+      
+      .cluff__services-title h2 {
+        font-size: 20.11px;
+      }
+}
+
+@media screen and (max-width: 765px) {
+  .cluff__services-title p {
+    
+      font-size: .8rem;
+      line-height: 20px;
+
+    }
+    
+    .cluff__services-title h2 {
+      font-size: 18.11px;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/cluff-electric-web/static/css/main.a45321a2.css",
+    "main.js": "/cluff-electric-web/static/js/main.0e1ba444.js",
+    "static/media/lightbulbs.mp4": "/cluff-electric-web/static/media/lightbulbs.176e56643e1d5e11106b.mp4",
+    "static/media/jpeg2.jpg": "/cluff-electric-web/static/media/jpeg2.0ae084f651122629061d.jpg",
+    "static/media/cluff-electric-logo.png": "/cluff-electric-web/static/media/cluff-electric-logo.5e4d720933370e572d5b.png",
+    "static/media/jpeg7.jpg": "/cluff-electric-web/static/media/jpeg7.a8f1611f01b4d66c7ca5.jpg",
+    "static/media/jpeg1.jpg": "/cluff-electric-web/static/media/jpeg1.faf2e83f504523737a40.jpg",
+    "static/media/house-icon.png": "/cluff-electric-web/static/media/house-icon.72a41f0e7f4c4a62840d.png",
+    "index.html": "/cluff-electric-web/index.html",
+    "main.a45321a2.css.map": "/cluff-electric-web/static/css/main.a45321a2.css.map",
+    "main.0e1ba444.js.map": "/cluff-electric-web/static/js/main.0e1ba444.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a45321a2.css",
+    "static/js/main.0e1ba444.js"
+  ]
+}
